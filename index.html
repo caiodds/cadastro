@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-top: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: url('R.jfif');
+        color: white;
+    }
+
+    .center {
+        align-items: center;
+        text-align: center;
+    }
+
+    input {
+        background-color: rgba(0, 0, 0, 0.788);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        border: 2px solid rgba(36, 255, 7, 0.507);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input:active{
+        border: none;
+    }
+    input::placeholder{
+        color: white;
+        border: none;
+    }
+    input::placeholder{
+        border: none;
+    }
+
+    button {
+        cursor: pointer;
+        width: 200px;
+        margin: 14px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(0, 255, 13);
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.2s;
+    }
+
+    button:active {
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+    }
+    button:hover{
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.699);
+    }
+    img{
+        margin: 5px;
+        cursor: pointer;
+    }
+    .letreiro{
+        margin: 20px;
+        font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="letreiro">
+    <h1 style="color:green;">Cupom de Desconto</h1>
+    <h1>Acesse agora nosso link <a href="">Aqui mesmo</a></h1>
+</div>
+    <div class="center">
+        <h1>Faça Seu Cadastro aqui</h1>
+        <span>Apelido</span><br>
+        <input type="text" placeholder="Digite um Apelido" required><br>
+        <span>Digite seu E-mail</span><br>
+        <input type="email" placeholder="Digite um email" required><br>
+        <span>Senha</span><br>
+        <input type="password" placeholder="Crie uma senhaa" required><br>
+        <button>Cadastrar</button><br>
+        <p>Nossas Redes Socias</p>
+        <img src="5365678_fb_facebook_facebook logo_icon (1).png" alt="">
+        <img src="3225191_app_instagram_logo_media_popular_icon (1).png" alt="">
+    </div>  
+</body>
+
+</html>
